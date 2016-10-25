@@ -1,3 +1,11 @@
 body {
-  padding-top: 61px;  /* Move body of page below navbar. */
+  padding-top: 61px; /* Move body of page below navbar. */
+}
+
+.top.menu {
+  background-color: #7CA9C4;
+}
+
+.wordmark {
+  color: #FFFFFF;
 }
