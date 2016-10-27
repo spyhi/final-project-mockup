@@ -6,5 +6,8 @@ import './edit-stuff-page.js';
 
 import './home-page.html';
 
+import './signup-page.html';
+import './signup-page.js';
+
 import './list-stuff-page.html';
 import './list-stuff-page.js';
