@@ -1,11 +1,42 @@
 body {
-  padding-top: 61px; /* Move body of page below navbar. */
+  padding-top: 58px; /* Move body of page below navbar. */
+  background: #EEEEEE;
 }
 
 .top.menu {
-  background-color: #7CA9C4;
+  background-color: #27AAE1;
+}
+
+#login-buttons a, .accounts-dialog a {
+  color: rgba(255, 255, 255, 0.901961);
 }
 
 .wordmark {
   color: #FFFFFF;
+}
+
+.darkened {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#Splash_Top {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+  ), url('/images/tea-splash.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  height: 600px;
+}
+
+#Splash_Image {
+  filter: brightness(80%);
+  position:relative;
+  width:100%
+}
+
+#Splash_Page {
+  padding-top: 5%;
 }

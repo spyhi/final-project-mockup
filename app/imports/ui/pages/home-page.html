@@ -1,10 +1,28 @@
 <template name="Home_Page">
-  <img class="ui fluid image" src="/images/blue-graph.png"/>
-  <div class="ui centered container" style="text-align:center;">
-
-    <h1>Welcome to Alloy</h1>
-    <button class="ui primary button">Sign Up</button>
-    <button class="ui button">Sign In</button>
-
+  <div class="ui container" id="Splash_Top">
+    <div id="Splash_Page" class="ui five row centered grid">
+      <div class="row"><h1 style="color:#FFFFFF; font-size:50px; font-weight:bold;">Welcome to</h1></div>
+      <div class="huge row" style="padding:0px;"><img class="ui fluid image" src="/images/alloy-wordmark.svg"/><h2 style="color:#FFFFFF; font-size:25px; font-weight:bold;">Find Your Dream Team</h2></div>
+      <div class="row"></div>
+      <div class="row">
+        <button class="ui primary button">Sign Up</button>
+        <button class="ui button">Sign In</button>
+      </div>
+      <div class="ui input">
+        <input id="project-search" type="text" placeholder="Search for a Project">
+      </div>
+    </div>
+  </div>
+  <div style="padding-top:16px;" class="ui very padded container">
+    <h1 style="text-align:center;">About Alloy</h1>
+    <p style="max-width:600px;margin:0 auto;">Teams with diverse skills create stronger results, but finding talented people with the right skills isn’t always so easy. Alloy makes building your dream team easier by bringing people together around projects, based on their skills. Guitarist looking to jam with a drummer? Web developer looking to collaborate with a designer? Filmmaker looking for a 3D artist?<br><br>Let Alloy help you find a team with the right chemistry.</p>
+    <h1 style="text-align:center;">Key Features</h1>
+    <ul class="ui list" style="max-width:400px;margin:0 auto;">
+      <li>Create profiles that list your skills, interests, and availability</li>
+      <li>Create projects that other people can browse and join</li>
+      <li>Search for people based on skills</li>
+      <li>Follow people you want to work with to track their projects</li>
+      <li>Set up alerts for projects that might interest you</li>
+    </ul>
   </div>
 </template>
