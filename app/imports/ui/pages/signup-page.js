@@ -1,6 +1,4 @@
 
-// Template.Find_Collaborator_Page.onRendered(function () {
-//   this.$('.dropdown').dropdown({
-//     allowAdditions: true,
-//   });
-// });
+Template.Signup_Page.onRendered(function () {
+  this.$('select.dropdown').dropdown();
+});

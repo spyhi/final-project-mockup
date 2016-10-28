@@ -6,6 +6,12 @@ import './edit-stuff-page.js';
 
 import './home-page.html';
 
+import './me.html';
+import './me.js';
+
+import './project-feed.html';
+import './project-feed.js';
+
 import './signup-page.html';
 import './signup-page.js';
 
